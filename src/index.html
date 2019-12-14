@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+        <title></title>
+        <link rel="stylesheet" type="text/css" href="assets/style.css">
+        <script type="application/javascript" src="Panorama.js"></script>
+    </head>
+    <body>
+        <div class="render-panorama" id="pano1" data-panorama-perspective="0.5">
+            <div>
+                <div data-panorama-face="top"    style="background-position:  -800px     0px;background-image: url('input/canyon.jpg');"></div>
+                <div data-panorama-face="front"  style="background-position:  -800px  -800px;background-image: url('input/canyon.jpg');"></div>
+                <div data-panorama-face="right"  style="background-position: -1600px  -800px;background-image: url('input/canyon.jpg');"></div>
+                <div data-panorama-face="back"   style="background-position: -2400px  -800px;background-image: url('input/canyon.jpg');"></div>
+                <div data-panorama-face="left"   style="background-position:     0px  -800px;background-image: url('input/canyon.jpg');"></div>
+                <div data-panorama-face="bottom" style="background-position:  -800px -1600px;background-image: url('input/canyon.jpg');"></div>
+            </div>
+            <div>
+                <div data-panorama-point=""
+                data-panorama-x="0"     data-panorama-y="0"         data-panorama-z="600"
+                data-panorama-side="left" data-panorama-scale="1" style="opacity: 0.5;box-shadow: 0 0 10em hsl(0deg, 0%, 100%);">
+                    <iframe src="https://hiperesp.github.io" width="800" height="400"></iframe>
+                </div>
+                <div data-panorama-point=""
+                data-panorama-x="0"     data-panorama-y="0"         data-panorama-z="600"
+                data-panorama-side="front" data-panorama-scale="1" style="opacity: 0.5;box-shadow: 0 0 10em hsl(0deg, 0%, 100%);">
+                    <div style="width: 800px; height: 400px; background-color: hsl(0deg, 0%, 100%);">
+                        <div style="padding: 40px;">
+                            <h1>Visualizador de Panorama Cubemap Interativo</h1>
+                            <br>
+                            <p>Esse visualizador de panorama cubemap é um visualizador interativo. Com ele, você pode inserir diversos pontos (que podem ser qualquer coisa, como por exemplo, links, etc) na visualização, simulando um ambiente 3D.</p>
+							<br>
+							<h2>Essa tela só pode ser controlada pelo teclado.</h2>
+							<p>As telas abaixo podem ser controladas de outras formas.</p>
+							<p>Desça o scroll</p>
+                        </div>
+                    </div>
+                </div>
+                <div data-panorama-point=""
+                data-panorama-x="0"     data-panorama-y="0"         data-panorama-z="600"
+                data-panorama-side="right" data-panorama-scale="1" style="opacity: 0.5;box-shadow: 0 0 10em hsl(0deg, 0%, 100%);">
+                    <iframe src="https://hiperesp.github.io/Modern-CSS/src/" width="800" height="400"></iframe>
+                </div>
+                <div data-panorama-point=""
+                data-panorama-x="0"     data-panorama-y="0"         data-panorama-z="600"
+                data-panorama-side="back" data-panorama-scale="1" style="opacity: 0.5;box-shadow: 0 0 10em hsl(0deg, 0%, 100%);">
+                    <div style="width: 800px; height: 400px; background-color: hsl(0deg, 0%, 100%);">
+                        <div style="padding: 40px;">
+                            <h1>[INSIRA_ALGO_LEGAL_AQUI]</h1>
+                            <br>
+                            <p>[INSIRA ALGUMA COISA BEEEEM LEGAL AQUI]</p>
+                        </div>
+                    </div>
+                </div>
+                <div data-panorama-point=""
+                data-panorama-x="0"     data-panorama-y="0"         data-panorama-z="600"
+                data-panorama-side="bottom" data-panorama-scale="1" style="opacity: 0.5;box-shadow: 0 0 10em hsl(0deg, 0%, 100%);">
+                    <div style="width: 800px; height: 400px; background-color: hsl(0deg, 0%, 100%);">
+                        <div style="padding: 40px;">
+                            <h1>Olha pra cima, por favor.</h1>
+							<br>
+							<p>Esse texto está fixo, assim pode ser ruim, dependendo da situação, então olha pra cima pra ver outra possibilidade.</p>
+                        </div>
+                    </div>
+                </div>
+                <div data-panorama-point=""
+                data-panorama-x="0"     data-panorama-y="0"         data-panorama-z="600"
+                data-panorama-side="top" data-panorama-orientation="screen" data-panorama-scale="1" style="opacity: 0.5;box-shadow: 0 0 10em hsl(0deg, 0%, 100%);">
+                    <div style="width: 800px; height: 400px; background-color: hsl(0deg, 0%, 100%);">
+                        <div style="padding: 40px;">
+                            <h1>Olha pra baixo, tem coisa legal lá</h1>
+							<br>
+							<p>Cuidado com a recursividade</p>
+							<p>Esse texto fica girando de acordo com a tela, talvez isso pode ser ruim, então olha pra baixo pra ver outra possibilidade.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="render-panorama" id="pano2">
+            <div data-panorama-face="top"    style="background-image: url('input/minecraft/panorama_4.png');"></div>
+            <div data-panorama-face="front"  style="background-image: url('input/minecraft/panorama_0.png');"></div>
+            <div data-panorama-face="right"  style="background-image: url('input/minecraft/panorama_1.png');"></div>
+            <div data-panorama-face="back"   style="background-image: url('input/minecraft/panorama_2.png');"></div>
+            <div data-panorama-face="left"   style="background-image: url('input/minecraft/panorama_3.png');"></div>
+            <div data-panorama-face="bottom" style="background-image: url('input/minecraft/panorama_5.png');"></div>
+			<div data-panorama-point=""
+			data-panorama-x="0"     data-panorama-y="-200"         data-panorama-z="1000"
+			data-panorama-side="front" data-panorama-scale="1" style="opacity: 0.5;box-shadow: 0 0 10em hsl(0deg, 0%, 100%);">
+				<div style="background-color: hsl(0deg, 0%, 100%);">
+					<div style="padding: 20px;">
+						<h1>Mouse e teclado</h1>
+					</div>
+				</div>
+			</div>
+        </div>
+        <div class="render-panorama" id="pano3">
+            <div data-panorama-face="top"    style="background-position: -1000px     0px;background-image: url('input/car.jpg');"></div>
+            <div data-panorama-face="front"  style="background-position: -1000px -1000px;background-image: url('input/car.jpg');"></div>
+            <div data-panorama-face="right"  style="background-position: -2000px -1000px;background-image: url('input/car.jpg');"></div>
+            <div data-panorama-face="back"   style="background-position: -3000px -1000px;background-image: url('input/car.jpg');"></div>
+            <div data-panorama-face="left"   style="background-position:     0px -1000px;background-image: url('input/car.jpg');"></div>
+            <div data-panorama-face="bottom" style="background-position: -1000px -2000px;background-image: url('input/car.jpg');"></div>
+			<div data-panorama-point=""
+			data-panorama-x="0"     data-panorama-y="0"         data-panorama-z="1024"
+			data-panorama-side="front" data-panorama-scale="1" style="opacity: 0.5;box-shadow: 0 0 10em hsl(0deg, 0%, 100%);">
+				<div style="background-color: hsl(0deg, 0%, 100%);">
+					<div style="padding: 20px;">
+						<h1>Só mouse</h1>
+					</div>
+				</div>
+			</div>
+        </div>
+        <div class="render-panorama" id="pano4">
+            <div data-panorama-face="top"    style="background-position:     0px     0px;background-image: url('input/city.jpg');"></div>
+            <div data-panorama-face="front"  style="background-position:     0px -1024px;background-image: url('input/city.jpg');"></div>
+            <div data-panorama-face="right"  style="background-position: -1024px -1024px;background-image: url('input/city.jpg');"></div>
+            <div data-panorama-face="back"   style="background-position: -2048px -1024px;background-image: url('input/city.jpg');"></div>
+            <div data-panorama-face="left"   style="background-position: -3072px -1024px;background-image: url('input/city.jpg');"></div>
+            <div data-panorama-face="bottom" style="background-position:     0px -2048px;background-image: url('input/city.jpg');"></div>
+        </div>
+        <div class="render-panorama" id="pano5">
+            <div data-panorama-face="top"    style="background-position:  -256px    0px;background-image: url('input/city2.jpg');"></div>
+            <div data-panorama-face="front"  style="background-position:  -256px -256px;background-image: url('input/city2.jpg');"></div>
+            <div data-panorama-face="right"  style="background-position:  -512px -256px;background-image: url('input/city2.jpg');"></div>
+            <div data-panorama-face="back"   style="background-position:  -768px -256px;background-image: url('input/city2.jpg');"></div>
+            <div data-panorama-face="left"   style="background-position:     0px -256px;background-image: url('input/city2.jpg');"></div>
+            <div data-panorama-face="bottom" style="background-position:  -256px -512px;background-image: url('input/city2.jpg');"></div>
+        </div>
+        <div class="render-panorama" id="pano6">
+            <div data-panorama-face="top"    style="background-position:  -250px    0px;background-image: url('input/teste.png');"></div>
+            <div data-panorama-face="front"  style="background-position:  -250px -250px;background-image: url('input/teste.png');"></div>
+            <div data-panorama-face="right"  style="background-position:  -500px -250px;background-image: url('input/teste.png');"></div>
+            <div data-panorama-face="back"   style="background-position:  -750px -250px;background-image: url('input/teste.png');"></div>
+            <div data-panorama-face="left"   style="background-position:     0px -250px;background-image: url('input/teste.png');"></div>
+            <div data-panorama-face="bottom" style="background-position:  -250px -500px;background-image: url('input/teste.png');"></div>
+        </div>
+        <script type="application/javascript">
+new Panorama(document.querySelector("#pano1"))
+    .setSize(800)
+    .setControls(Panorama.CONTROLS_KEYBOARD)
+    .configure()
+    .start();
+new Panorama(document.querySelector("#pano2"))
+    .setSize(1024)
+    .setControls(Panorama.CONTROLS_ALL)
+    .configure()
+    .start();
+new Panorama(document.querySelector("#pano3"))
+    .setSize(1000)
+    .setControls(Panorama.CONTROLS_MOUSE)
+    .configure()
+    .start();
+new Panorama(document.querySelector("#pano4"))
+    .setSize(1024)
+    .setControls(Panorama.CONTROLS_ALL)
+    .configure()
+    .start();
+new Panorama(document.querySelector("#pano5"))
+    .setSize(256)
+    .setControls(Panorama.CONTROLS_ALL)
+    .configure()
+    .start();
+new Panorama(document.querySelector("#pano6"))
+    .setSize(250)
+    .setControls(Panorama.CONTROLS_ALL)
+    .configure()
+    .start();
+        </script>
+    </body>
+</html>

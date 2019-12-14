@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Roboto', 'Arial', sans-serif;
+}
+.render-panorama {
+    width: auto; /*qualquer tamanho*/
+    height: 100vh; /*qualquer tamanho*/
+}
+.panorama-point {
+    padding: 10px 20px;
+    background-color: hsla(0deg, 0%, 100%, 0.5);
+    border-radius: 10px;
+    font-size: 1em;
+}
+.panorama-point a {
+    color: hsl(210deg, 100%, 50%);
+    text-decoration: none;
+}
